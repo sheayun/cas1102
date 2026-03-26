@@ -8,7 +8,7 @@ Hole 3: 5.5
 Hole 4: 6.0
 Hole 5: 4.5
 Hole 6: 5.5
-Hole 7: 4.2
+Hole 7: 4.3
 Hole 8: 6.0
 Hole 9: 5.0
 Hole 10: 4.0
@@ -18,5 +18,5 @@ Hole 13: 3.8
 Hole 14: 6.0
 Hole 15: 7.5
 Hole 16: 3.8
-Hole 17: 6.2
+Hole 17: 6.3
 Hole 18: 6.5

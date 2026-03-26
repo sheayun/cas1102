@@ -24,7 +24,8 @@ int main() {
     calcScore(par, delta, score);
     calcAvg(par, delta, avg);
 
-    cout << fixed;
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
     cout.precision(1);
     for (int i = 0; i < NUM_PLAYERS; i++) {
         cout << "Player " << i + 1 << ": " << score[i] << endl;
@@ -51,5 +52,6 @@ void calcAvg(const int par[], const int delta[][NUM_HOLES], double avg[]) {
             avg[j] += par[j] + delta[i][j];
         }
         avg[j] /= NUM_PLAYERS;
+        avg[j] = floor(avg[j] * 10 + 0.5) / 10.0;
     }
 }

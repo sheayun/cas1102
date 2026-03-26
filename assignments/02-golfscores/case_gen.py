@@ -1,4 +1,5 @@
 import random
+from math import floor
 
 PAR = [4] * 18
 
@@ -20,6 +21,7 @@ data = [[random.randint(-1, PAR[i]) for i in range(18)] for _ in range(4)]
 
 print("\n".join(map(lambda x: " ".join(map(str, x)), data)))
 
+'''
 print(" Player    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18 Total")
 for p in range(4):
     print(f'      {p+1}', end=' ')
@@ -36,7 +38,17 @@ for p in range(4):
 print("Average", end=' ')
 for i in range(18):
     avg = sum((data[p][i] + PAR[i]) for p in range(4)) / 4
+    avg = floor(avg * 10 + 0.5) / 10
     if avg < 10:
         print(' ', end='')
     print(f'{avg:.1f}', end=' ')
 print()
+'''
+
+for p in range(4):
+    print(f'Player {p + 1}: {sum(data[p][i] + PAR[i] for i in range(18))}')
+
+for i in range(18):
+    avg = sum((data[p][i] + PAR[i]) for p in range(4)) / 4
+    avg = floor(avg * 10 + 0.5) / 10
+    print(f'Hole {i + 1}: {avg:.1f}')
