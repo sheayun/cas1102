@@ -6,7 +6,7 @@ using namespace std;
 DigitalTime::DigitalTime(int theHour, int theMinute)
 {
     if (theHour < 0 || theHour > 23 || theMinute < 0 || theMinute > 59) {
-        cout << "Illegal argument to DigitalTime constructor." << endl;
+        cerr << "Illegal argument to DigitalTime constructor." << endl;
         exit(1);
     }
     else {
