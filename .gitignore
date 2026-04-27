@@ -1,3 +1,5 @@
+*.o
+
 exams/m0305
 exams/m0401
 exams/m0404
@@ -12,3 +14,5 @@ samples/Ch10/destructor
 samples/Ch10/twodimptr
 samples/Ch10/vpr
 samples/Ch11/dtime/main
+samples/Ch11/example
+samples/Ch11/dtnamespace/main
