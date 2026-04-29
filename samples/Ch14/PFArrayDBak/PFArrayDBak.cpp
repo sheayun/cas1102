@@ -1,7 +1,9 @@
 #include "PFArrayDBak.h"
 
-PFArrayDBak::PFArrayDBak() : PFArrayD(), usedB(0) { b = new double[capacity]; }
-PFArrayDBak::PFArrayDBak(int size) : PFArrayD(size), usedB(0) { b = new double[capacity]; }
+PFArrayDBak::PFArrayDBak() : PFArrayD(), usedB(0)
+    { b = new double[capacity]; }
+PFArrayDBak::PFArrayDBak(int size) : PFArrayD(size), usedB(0)
+    { b = new double[capacity]; }
 PFArrayDBak::PFArrayDBak(const PFArrayDBak &object)
     : PFArrayD(object), usedB(object.usedB)
 {
