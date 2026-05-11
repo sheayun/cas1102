@@ -15,13 +15,13 @@ PFArrayDBak::~PFArrayDBak() { delete [] b; }
 void PFArrayDBak::backup()
 {
     usedB = used;
-    for (int i = 0; i < used; i++)
+    for (int i = 0; i < usedB; i++)
         b[i] = a[i];
 }
 void PFArrayDBak::restore()
 {
     used = usedB;
-    for (int i = 0; i < usedB; i++)
+    for (int i = 0; i < used; i++)
         a[i] = b[i];
 }
 PFArrayDBak &PFArrayDBak::operator =(const PFArrayDBak &rightSide)
