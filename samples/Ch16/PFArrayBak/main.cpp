@@ -5,9 +5,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-#include "PFArray.h"
 #include "PFArray.cpp"
-#include "PFArrayBak.h"
 #include "PFArrayBak.cpp"
 using PFArrayCAS1102::PFArrayBak;
 

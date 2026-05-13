@@ -12,7 +12,7 @@ public:
     virtual ~PFArrayBak();
     void backup();
     void restore();
-    PFArrayBak<T> &operator =(const PFArrayBak &rightSide);
+    PFArrayBak<T> &operator =(const PFArrayBak<T> &rightSide);
 private:
     T *b;
     int usedB;
