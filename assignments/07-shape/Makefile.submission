@@ -1,0 +1,20 @@
+INSTRUCTOR_SRC_DIR = .
+INSTRUCTOR_SRC = $(INSTRUCTOR_SRC_DIR)/main.cpp
+STUDENT_SRC_DIR ?= .
+STUDENT_SRC = $(STUDENT_SRC_DIR)/Shape.cpp \
+              $(STUDENT_SRC_DIR)/Circle.cpp \
+			  $(STUDENT_SRC_DIR)/Rectangle.cpp \
+			  $(STUDENT_SRC_DIR)/Triangle.cpp
+
+CXX = g++
+CXXFLAGS = -I./src -I$(STUDENT_SRC_DIR) --std=c++11
+LDFLAGS =
+TARGET = submission
+
+all: $(TARGET)
+
+$(TARGET): $(INSTRUCTOR_SRC) $(STUDENT_SRC)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ -o $@
+
+clean:
+	rm -f $(TARGET)
