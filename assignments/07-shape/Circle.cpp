@@ -11,7 +11,7 @@ Circle::Circle() : radius(0) { }
 Circle::Circle(const string &name, const string &color, int radius)
     : Shape(name, color), radius(radius) { }
 
-    Circle::~Circle()
+Circle::~Circle()
 {
     cout << "Circle destructor called for " << getName() << endl;
 }
