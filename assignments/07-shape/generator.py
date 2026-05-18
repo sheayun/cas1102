@@ -1,7 +1,7 @@
 import random
 from string import ascii_lowercase as alphabet
 
-n = random.randint(1, 5)
+n = random.randint(1, 1000)
 print (n)
 
 for i in range(n):

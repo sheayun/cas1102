@@ -1,8 +1,8 @@
 INSTRUCTOR_SRC_DIR = .
-INSTRUCTOR_SRC = $(INSTRUCTOR_SRC_DIR)/main.cpp
+INSTRUCTOR_SRC = $(INSTRUCTOR_SRC_DIR)/main.cpp \
+                 $(INSTRUCTOR_SRC_DIR)/Shape.cpp
 STUDENT_SRC_DIR ?= .
-STUDENT_SRC = $(STUDENT_SRC_DIR)/Shape.cpp \
-              $(STUDENT_SRC_DIR)/Circle.cpp \
+STUDENT_SRC = $(STUDENT_SRC_DIR)/Circle.cpp \
 			  $(STUDENT_SRC_DIR)/Rectangle.cpp \
 			  $(STUDENT_SRC_DIR)/Triangle.cpp
 

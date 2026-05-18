@@ -1,0 +1,10 @@
+10
+C Tom pink 6
+R Brad purple 8 2
+C Mickey blue 9
+T Sarah brown 128 72
+T Anne white 85 42
+T Jessee red 76 97
+R Lisa green 5 12
+C Robert yellow 100
+C Julie black 792

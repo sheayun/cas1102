@@ -1,0 +1,40 @@
+Circle (Tom, pink) - Radius: 6
+	Area: 113.10
+Rectangle (Brad, purple) - Width: 8, Height: 2
+	Area: 16.00
+Circle (Mickey, blue) - Radius: 9
+	Area: 254.47
+Triangle (Sarah, brown) - Base: 128, Height: 72
+	Area: 4608.00
+Triangle (Anne, white) - Base: 85, Height: 42
+	Area: 1785.00
+Triangle (Jessee, red) - Base: 76, Height: 97
+	Area: 3686.00
+Rectangle (Lisa, green) - Width: 5, Height: 12
+	Area: 60.00
+Circle (Robert, yellow) - Radius: 100
+	Area: 31415.93
+Circle (Julie, black) - Radius: 792
+	Area: 1970607.97
+Circle (, ) - Radius: 792
+	Area: 1970607.97
+Circle destructor called for Tom
+Shape destructor called for Tom
+Rectangle destructor called for Brad
+Shape destructor called for Brad
+Circle destructor called for Mickey
+Shape destructor called for Mickey
+Triangle destructor called for Sarah
+Shape destructor called for Sarah
+Triangle destructor called for Anne
+Shape destructor called for Anne
+Triangle destructor called for Jessee
+Shape destructor called for Jessee
+Rectangle destructor called for Lisa
+Shape destructor called for Lisa
+Circle destructor called for Robert
+Shape destructor called for Robert
+Circle destructor called for Julie
+Shape destructor called for Julie
+Circle destructor called for 
+Shape destructor called for 

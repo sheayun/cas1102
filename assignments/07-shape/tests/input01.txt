@@ -1,0 +1,4 @@
+3
+C first black 4
+R second red 5 3
+T third green 6 2

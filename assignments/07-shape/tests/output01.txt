@@ -1,0 +1,12 @@
+Circle (first, black) - Radius: 4
+	Area: 50.27
+Rectangle (second, red) - Width: 5, Height: 3
+	Area: 15.00
+Triangle (third, green) - Base: 6, Height: 2
+	Area: 6.00
+Circle destructor called for first
+Shape destructor called for first
+Rectangle destructor called for second
+Shape destructor called for second
+Triangle destructor called for third
+Shape destructor called for third
