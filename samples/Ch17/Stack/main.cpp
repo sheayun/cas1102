@@ -17,7 +17,7 @@ int main() {
             s.push(next);
             cin.get(next);
         }
-        cout << "Written backeard that is:\n";
+        cout << "Written backward that is:\n";
         while (!s.isEmpty()) {
             cout << s.pop();
         }
