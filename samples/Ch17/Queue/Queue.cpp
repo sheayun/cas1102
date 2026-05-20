@@ -65,7 +65,7 @@ Queue<T>::~Queue()
 }
 
 template <class T>
-void Queue<T>::add(T item)
+void Queue<T>::add(const T &item)
 {
     if (isEmpty()) {
         front = back = new Node<T>(item, nullptr);

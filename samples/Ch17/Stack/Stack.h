@@ -24,7 +24,7 @@ public:
     Stack(const Stack<T> &aStack);
     Stack<T> &operator =(const Stack<T> &rightSide);
     virtual ~Stack();
-    void push(T stackFrame);
+    void push(const T &stackFrame);
     T pop();
     bool isEmpty() const;
 private:

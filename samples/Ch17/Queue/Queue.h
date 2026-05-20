@@ -4,6 +4,7 @@
 namespace QueueCAS1102 {
 
 template <class T>
+
 class Node {
 public:
     Node(T theData, Node<T> *theLink) : data(theData), link(theLink) {}
@@ -23,7 +24,7 @@ public:
     Queue(const Queue<T> &aQueue);
     Queue<T> &operator =(const Queue<T> &rightSide);
     virtual ~Queue();
-    void add(T item);
+    void add(const T &item);
     T remove();
     bool isEmpty() const;
 private:
