@@ -44,6 +44,7 @@ Node<T> *search(Node<T> *head, const T &target)
             return here;
         } else {
             return nullptr;
+        }
     }
 }
 
