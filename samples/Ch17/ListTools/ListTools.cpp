@@ -34,7 +34,7 @@ template<class T>
 Node<T> *search(Node<T> *head, const T &target)
 {
     Node<T> *here = head;
-    if (here != nullptr) {
+    if (here == nullptr) {
         return nullptr;
     } else {
         while (here->getData() != target && here->getLink() != nullptr) {
@@ -44,7 +44,6 @@ Node<T> *search(Node<T> *head, const T &target)
             return here;
         } else {
             return nullptr;
-        }
     }
 }
 
