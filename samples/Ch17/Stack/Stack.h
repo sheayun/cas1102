@@ -3,7 +3,7 @@
 
 namespace StackCAS1102 {
 
-template <class T>
+template<class T>
 
 class Node {
 public:
@@ -17,7 +17,7 @@ private:
     Node<T> *link;
 }; // end class Node
 
-template <class T>
+template<class T>
 class Stack {
 public:
     Stack();

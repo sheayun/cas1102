@@ -7,10 +7,10 @@ using std::cerr;
 
 namespace QueueCAS1102 {
 
-template <class T>
+template<class T>
 Queue<T>::Queue() : front(nullptr), back(nullptr) {}
 
-template <class T>
+template<class T>
 Queue<T>::Queue(const Queue<T> &aQueue)
 {
     if (aQueue.isEmpty()) {
@@ -28,7 +28,7 @@ Queue<T>::Queue(const Queue<T> &aQueue)
     }
 }
 
-template <class T>
+template<class T>
 Queue<T> &Queue<T>::operator =(const Queue<T> &rightSide)
 {
     if (front == rightSide.front) {
@@ -55,7 +55,7 @@ Queue<T> &Queue<T>::operator =(const Queue<T> &rightSide)
     return *this;
 }
 
-template <class T>
+template<class T>
 Queue<T>::~Queue()
 {
     T next;
@@ -64,7 +64,7 @@ Queue<T>::~Queue()
     }
 }
 
-template <class T>
+template<class T>
 void Queue<T>::add(const T &item)
 {
     if (isEmpty()) {
@@ -75,7 +75,7 @@ void Queue<T>::add(const T &item)
     }
 }
 
-template <class T>
+template<class T>
 T Queue<T>::remove()
 {
     if (isEmpty()) {
@@ -93,7 +93,7 @@ T Queue<T>::remove()
     }
 }
 
-template <class T>
+template<class T>
 bool Queue<T>::isEmpty() const
 {
     return (back == nullptr);

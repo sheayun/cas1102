@@ -7,10 +7,10 @@ using std::cerr;
 
 namespace StackCAS1102 {
 
-template <class T>
+template<class T>
 Stack<T>::Stack() : top(nullptr) {}
 
-template <class T>
+template<class T>
 Stack<T>::Stack(const Stack<T> &aStack)
 {
     if (aStack.isEmpty()) {
@@ -29,7 +29,7 @@ Stack<T>::Stack(const Stack<T> &aStack)
     }
 }
 
-template <class T>
+template<class T>
 Stack<T> &Stack<T>::operator =(const Stack<T> &rightSide)
 {
     if (top == rightSide.top) {
@@ -49,7 +49,7 @@ Stack<T> &Stack<T>::operator =(const Stack<T> &rightSide)
     return *this;
 }
 
-template <class T>
+template<class T>
 Stack<T>::~Stack()
 {
     T next;
@@ -58,13 +58,13 @@ Stack<T>::~Stack()
     }
 }
 
-template <class T>
+template<class T>
 void Stack<T>::push(const T &stackFrame)
 {
     top = new Node<T>(stackFrame, top);
 }
 
-template <class T>
+template<class T>
 T Stack<T>::pop()
 {
     if (isEmpty()) {
@@ -78,7 +78,7 @@ T Stack<T>::pop()
     return result;
 }
 
-template <class T>
+template<class T>
 bool Stack<T>::isEmpty() const
 {
     return (top == nullptr);

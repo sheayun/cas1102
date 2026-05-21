@@ -3,7 +3,7 @@
 
 namespace QueueCAS1102 {
 
-template <class T>
+template<class T>
 
 class Node {
 public:
@@ -17,7 +17,7 @@ private:
     Node<T> *link;
 }; // end class Node
 
-template <class T>
+template<class T>
 class Queue {
 public:
     Queue();
