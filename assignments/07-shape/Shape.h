@@ -22,6 +22,6 @@ private:
     string color;
 }; // end class Shape
 
-}; // end namespace ShapesCAS1102
+} // end namespace ShapesCAS1102
 
 #endif // SHAPE_H
