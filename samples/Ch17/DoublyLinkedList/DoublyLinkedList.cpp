@@ -33,7 +33,7 @@ void deleteNode(DoublyLinkedIntNodePtr &head, DoublyLinkedIntNodePtr discard)
         DoublyLinkedIntNodePtr next = discard->getNextLink();
         prev->setNextLink(next);
         if (next != nullptr) {
-            next ->setPreviousLink(prev);
+            next->setPreviousLink(prev);
         }
     }
     delete discard;
