@@ -22,7 +22,7 @@ public:
     ListIterator() : current(nullptr) {}
     ListIterator(Node<T> *initial) : current(initial) {}
     const T &operator *() const { return current->getData(); }
-    const T &operator ++() // prefix increment
+    ListIterator &operator ++() // prefix increment
     {
         current = current->getLink();
         return *this;
