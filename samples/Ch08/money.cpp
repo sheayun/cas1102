@@ -19,7 +19,7 @@ private:
   	int dollars;	// A negative amount is represented as negative
   					// dollars and
   	int cents;		// negative cents. Negative $4.50 is represented
-  					// as -4 and 50.
+  					// as -4 and -50.
     int dollarsPart(double amount) const;
     int centsPart(double amount) const;
     int round(double number) const;
