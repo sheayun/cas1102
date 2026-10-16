@@ -1,18 +1,22 @@
 *.o
 a.out
 
-exams/m0305
-exams/m0401
-exams/m0404
-exams/m0405
-exams/m0502
-exams/f0301
-exams/f0302
-exams/f0303
-exams/f0304
-exams/f0305
-exams/f0402
-exams/f0403
+exams/spring-2026/m0305
+exams/spring-2026/m0401
+exams/spring-2026/m0404
+exams/spring-2026/m0405
+exams/spring-2026/m0502
+exams/spring-2026/f0301
+exams/spring-2026/f0302
+exams/spring-2026/f0303
+exams/spring-2026/f0304
+exams/spring-2026/f0305
+exams/spring-2026/f0402
+exams/spring-2026/f0403
+
+exams/fall-2026/m0401
+exams/fall-2026/m0501
+exams/fall-2026/m0502
 
 samples/Ch10/PFArrayD
 samples/Ch10/arrptr
