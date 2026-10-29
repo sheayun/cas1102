@@ -13,9 +13,6 @@ DigitalTime::DigitalTime(int theHour, int theMinute)
         hour = theHour;
         minute = theMinute;
     }
-    if (hour == 24) {
-        hour = 0;
-    }
 }
 
 DigitalTime::DigitalTime()
