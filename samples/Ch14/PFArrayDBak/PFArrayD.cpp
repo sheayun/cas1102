@@ -16,7 +16,7 @@ int PFArrayD::getNumberUsed() const { return used; }
 void PFArrayD::addElement(double element)
 {
     if (used >= capacity) {
-        cerr << "Attempto to exceed capacity in PFArrayD.\n";
+        cerr << "Attempt to exceed capacity in PFArrayD.\n";
         exit(1);
     }
     a[used++] = element;

@@ -35,7 +35,7 @@ PFArrayD::PFArrayD(const PFArrayD &pfaObject)
 void PFArrayD::addElement(double element)
 {
     if (used >= capacity) {
-        cerr << "Attempto to exceed capacity in PFArrayD.\n";
+        cerr << "Attempt to exceed capacity in PFArrayD.\n";
         exit(1);
     }
     a[used++] = element;
